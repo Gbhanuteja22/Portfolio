@@ -37,6 +37,18 @@
     margin-top: 2rem;
     padding-top: 2rem;
 }
+.skill-logo{
+    height: 40px;
+    width: 100%;
+    align-items: center;
+}
+.skill-logo svg {
+    transition: fill 0.3s ease;
+}
+
+.skill-logo:hover{
+    fill: #0b719d;
+}
 #contact {
     padding-bottom: 2rem;
 }
@@ -57,6 +69,9 @@
 }
 .card-text {
     text-align: justify;
+}
+.card:hover .skill-logo {
+    color: #0b719d;
 }
 .card:hover .skillsIcon {
     color: #0b719d;
