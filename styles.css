@@ -101,7 +101,6 @@
     from, to { border-color: transparent; }
     50% { border-color: rgb(235, 235, 235); }
 }
-=======
 .navbarScroll.navbarDark {
     background-color: black;
 }
@@ -190,4 +189,3 @@
     from, to { border-color: transparent; }
     50% { border-color: rgb(235, 235, 235); }
 }
->>>>>>> 880dc8d74fb87966f9328f6c96e6eef75e23be2b
