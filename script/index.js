@@ -15,10 +15,12 @@ navLinks.forEach((l) => {
 })
 function updateHeroText() {
     const heroText = document.getElementById('heroText');
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < 576) {
+        heroText.textContent = "Full Stack Developer";
+    } else if (window.innerWidth < 768) {
         heroText.textContent = "I'm a Full Stack Developer";
     } else {
-        heroText.textContent = "A Full Stack Developer, from Hyderabad";
+        heroText.textContent = "A Full Stack Developer from Hyderabad";
     }
 }
 updateHeroText();
